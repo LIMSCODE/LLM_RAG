@@ -5,6 +5,8 @@
 ##### 3. `Rag with Finetuned model.ipynb` 에서 구글드라이브에 저장된 파인튜닝된 모델을 호출
 ##### 4. 질문한 것 + RAG 이용하여 구글 검색한 결과 => 모델 입력으로 사용
 
+
+
 # 프로젝트 구조
 
 ## `finetuning_framework.ipynb`

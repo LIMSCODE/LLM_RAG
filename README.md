@@ -6,6 +6,9 @@
 
 
 
+			
+
+
 # 프로젝트 구조
 ## finetuning_framework.ipynb 
 ##### chip2.csv데이터셋 가공, 사용자토큰적용함수(<QUERY>질문) 적용

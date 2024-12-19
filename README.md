@@ -6,7 +6,7 @@
 ##### 4. 질문한 것 + RAG 이용하여 구글 검색한 결과 => 모델 입력으로 사용
 
 
-
+<br><br> 
 # 프로젝트 구조
 
 ## `finetuning_framework.ipynb`

@@ -4,6 +4,8 @@
 ##### 3. Rag with Finetuned model.ipynb 에서 구글드라이브에 저장된 파인튜닝된 모델을 호출 
 ##### 4. 질문한것 + rag이용하여 구글검색한결과 => 모델입력으로 사용
 
+
+
 # 프로젝트 구조
 ## finetuning_framework.ipynb 
 ##### chip2.csv데이터셋 가공, 사용자토큰적용함수(<QUERY>질문) 적용

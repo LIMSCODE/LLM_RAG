@@ -21,3 +21,5 @@
 ##### - 모델 파라미터 세팅 (`hf_pipeline = pipeline(...)`)
 ##### - `rag_query_with_search`에서 질문 + 구글 검색 결과(`google_search`)를 모델 입력으로 사용
 ##### - `hf_pipeline(input_text)`로 모델 답변 생성
+
+<br><br> 

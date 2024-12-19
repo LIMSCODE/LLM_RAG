@@ -1,4 +1,5 @@
 # 프로젝트 개요
+
 ##### 1. finetuning_framework.ipynb 에서 GPT-2 모델을 chip2.csv 데이터로 파인튜닝
 ##### 2. 구글드라이브에 파인튜닝된 모델을 저장한다.
 ##### 3. Rag with Finetuned model.ipynb 에서 구글드라이브에 저장된 파인튜닝된 모델을 호출 
@@ -7,6 +8,7 @@
 
 
 # 프로젝트 구조
+
 ## finetuning_framework.ipynb 
 ##### chip2.csv데이터셋 가공, 사용자토큰적용함수(<QUERY>질문) 적용
 ##### chip2.csv로 GPT-2모델 파인튜닝 (trainer = Trainer(...))

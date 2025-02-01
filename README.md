@@ -4,7 +4,6 @@
 2. 구글드라이브에 파인튜닝된 모델을 저장한다. <br>
 3. `Rag with Finetuned model.ipynb` 에서 구글드라이브에 저장된 파인튜닝된 모델을 호출 <br>
 4. 질문입력 + 구글API검색결과 => 모델입력으로 통합하여 모델이 답변생성 (RAG)  <br>
-<br><br>
 
 #### 프로젝트 구조
 #### `finetuning_framework.ipynb`

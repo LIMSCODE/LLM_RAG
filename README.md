@@ -14,5 +14,10 @@
 파인튜닝된 모델 불러옴 (`model = AutoModelForCausalLM.from_pretrained(model_load_path)`) <br>
 모델 파라미터 세팅 (`hf_pipeline = pipeline(...)`) <br>
 `rag_query_with_search`에서 질문 + 구글 검색 결과(`google_search`)를 모델 입력으로 사용 <br>
-`hf_pipeline(input_text)`로 모델 답변 생성 <br>
-<br><br> 
+`hf_pipeline(input_text)`로 모델 답변 생성 <br> 
+### `강화학습적용`
+1) 보상모델(RL) 정의 및 학습
+- {질문,사람점수매긴답변}쌍에서 높은점수의 답변에 높은보상값을 줘서 선호되도록 모델훈련
+2) 강화학습(TRL) 적용
+-ppo_trainer.generate() :답변생성, 답변을 보상모델에 입력하여 보상값얻음
+-ppo_trainer.step() :보상값 기반 모델학습 (TRL이 보상값기반 기존답변과 차이 고려하여 모델변경)
